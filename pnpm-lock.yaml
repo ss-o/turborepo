@@ -13,7 +13,7 @@ importers:
   apps/docs:
     specifiers:
       '@types/node': 17.0.24
-      '@types/react': 17.0.44
+      '@types/react': 18.0.5
       config: workspace:*
       eslint: 7.32.0
       next: 12.1.0
@@ -30,7 +30,7 @@ importers:
       ui: link:../../packages/ui
     devDependencies:
       '@types/node': 17.0.24
-      '@types/react': 17.0.44
+      '@types/react': 18.0.5
       config: link:../../packages/config
       eslint: 7.32.0
       next-transpile-modules: 9.0.0
@@ -40,7 +40,7 @@ importers:
   apps/web:
     specifiers:
       '@types/node': 17.0.24
-      '@types/react': 17.0.44
+      '@types/react': 18.0.5
       config: workspace:*
       eslint: 7.32.0
       next: 12.1.0
@@ -57,7 +57,7 @@ importers:
       ui: link:../../packages/ui
     devDependencies:
       '@types/node': 17.0.24
-      '@types/react': 17.0.44
+      '@types/react': 18.0.5
       config: link:../../packages/config
       eslint: 7.32.0
       next-transpile-modules: 9.0.0
@@ -79,13 +79,13 @@ importers:
 
   packages/ui:
     specifiers:
-      '@types/react': 17.0.44
+      '@types/react': 18.0.5
       '@types/react-dom': 17.0.15
       config: workspace:*
       tsconfig: workspace:*
       typescript: 4.6.3
     devDependencies:
-      '@types/react': 17.0.44
+      '@types/react': 18.0.5
       '@types/react-dom': 17.0.15
       config: link:../config
       tsconfig: link:../tsconfig
@@ -314,6 +314,14 @@ packages:
 
   /@types/react/17.0.44:
     resolution: {integrity: sha512-Ye0nlw09GeMp2Suh8qoOv0odfgCoowfM/9MG6WeRD60Gq9wS90bdkdRtYbRkNhXOpG4H+YXGvj4wOWhAC0LJ1g==}
+    dependencies:
+      '@types/prop-types': 15.7.5
+      '@types/scheduler': 0.16.2
+      csstype: 3.0.11
+    dev: true
+
+  /@types/react/18.0.5:
+    resolution: {integrity: sha512-UPxNGInDCIKlfqBrm8LDXYWNfLHwIdisWcsH5GpMyGjhEDLFgTtlRBaoWuCua9HcyuE0rMkmAeZ3FXV1pYLIYQ==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
