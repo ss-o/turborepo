@@ -80,13 +80,13 @@ importers:
   packages/ui:
     specifiers:
       '@types/react': 18.0.5
-      '@types/react-dom': 17.0.15
+      '@types/react-dom': 18.0.1
       config: workspace:*
       tsconfig: workspace:*
       typescript: 4.6.3
     devDependencies:
       '@types/react': 18.0.5
-      '@types/react-dom': 17.0.15
+      '@types/react-dom': 18.0.1
       config: link:../config
       tsconfig: link:../tsconfig
       typescript: 4.6.3
@@ -315,18 +315,10 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react-dom/17.0.15:
-    resolution: {integrity: sha512-Tr9VU9DvNoHDWlmecmcsE5ZZiUkYx+nKBzum4Oxe1K0yJVyBlfbq7H3eXjxXqJczBKqPGq3EgfTru4MgKb9+Yw==}
+  /@types/react-dom/18.0.1:
+    resolution: {integrity: sha512-jCwTXvHtRLiyVvKm9aEdHXs8rflVOGd5Sl913JZrPshfXjn8NYsTNZOz70bCsA31IR0TOqwi3ad+X4tSCBoMTw==}
     dependencies:
-      '@types/react': 17.0.44
-    dev: true
-
-  /@types/react/17.0.44:
-    resolution: {integrity: sha512-Ye0nlw09GeMp2Suh8qoOv0odfgCoowfM/9MG6WeRD60Gq9wS90bdkdRtYbRkNhXOpG4H+YXGvj4wOWhAC0LJ1g==}
-    dependencies:
-      '@types/prop-types': 15.7.5
-      '@types/scheduler': 0.16.2
-      csstype: 3.0.11
+      '@types/react': 18.0.5
     dev: true
 
   /@types/react/18.0.5:
