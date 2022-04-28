@@ -27,7 +27,7 @@
     "config": "workspace:*",
     "@docusaurus/module-type-aliases": "2.0.0-beta.18",
     "@tsconfig/docusaurus": "^1.0.5",
-    "@algolia/client-search": "4.9.1",
+    "@algolia/client-search": "4.13.0",
     "@types/react": "17.0.0",
     "tsconfig": "workspace:*",
     "typescript": "^4.6.3"
