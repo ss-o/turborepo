@@ -18,7 +18,7 @@ jobs:
       #  TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
       strategy:
         matrix:
-          os: [ubuntu-latest, macos-latest]
+          os: [ubuntu-latest]
 
       steps:
         - name: Check out code
@@ -28,7 +28,7 @@ jobs:
 
         - uses: pnpm/action-setup@v2.2.1
           with:
-            version: 6.32.8
+            version: 7.1.6
 
         - name: Setup Node.js environment
           uses: actions/setup-node@v3
