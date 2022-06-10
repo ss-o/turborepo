@@ -20,5 +20,5 @@
     "npm": ">=7.0.0",
     "node": ">=14.0.0"
   },
-  "packageManager": "pnpm@7.1.9"
+  "packageManager": "pnpm@7.2.0"
 }
