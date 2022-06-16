@@ -18,7 +18,7 @@ importers:
       '@docusaurus/preset-classic': 2.0.0-beta.21
       '@mdx-js/react': 2.1.1
       '@tsconfig/docusaurus': 1.0.6
-      '@types/react': 17.0.46
+      '@types/react': 17.0.47
       clsx: 1.1.1
       config: workspace:*
       prism-react-renderer: 1.3.3
@@ -28,7 +28,7 @@ importers:
       typescript: 4.7.3
     dependencies:
       '@docusaurus/core': 2.0.0-beta.21_3j5kiqpkwml5zzfuaom7hdylau
-      '@docusaurus/preset-classic': 2.0.0-beta.21_hgmlqo77woa6fdsehy4nk2n2m4
+      '@docusaurus/preset-classic': 2.0.0-beta.21_5cjilodlopqvwaufddpysz6vla
       '@mdx-js/react': 2.1.1_react@17.0.2
       clsx: 1.1.1
       prism-react-renderer: 1.3.3_react@17.0.2
@@ -38,7 +38,7 @@ importers:
       '@algolia/client-search': 4.13.1
       '@docusaurus/module-type-aliases': 2.0.0-beta.21_sfoxds7t5ydpegc3knd667wn6m
       '@tsconfig/docusaurus': 1.0.6
-      '@types/react': 17.0.46
+      '@types/react': 17.0.47
       config: link:../../packages/config
       tsconfig: link:../../packages/tsconfig
       typescript: 4.7.3
@@ -1543,7 +1543,7 @@ packages:
     resolution: {integrity: sha512-bh5IskwkkodbvC0FzSg1AxMykfDl95hebEKwxNoq4e5QaGzOXSBgW8+jnMFZ7JU4sTBiB04vZWoUSzNrPboLZA==}
     dev: false
 
-  /@docsearch/react/3.1.0_ooduvn556nbrhgv6qu3va5yxde:
+  /@docsearch/react/3.1.0_nn45z5sr7igu7sfun6tiae5hx4:
     resolution: {integrity: sha512-bjB6ExnZzf++5B7Tfoi6UXgNwoUnNOfZ1NyvnvPhWgCMy5V/biAtLL4o7owmZSYdAKeFSvZ5Lxm0is4su/dBWg==}
     peerDependencies:
       '@types/react': '>= 16.8.0 < 19.0.0'
@@ -1552,7 +1552,7 @@ packages:
     dependencies:
       '@algolia/autocomplete-core': 1.6.3
       '@docsearch/css': 3.1.0
-      '@types/react': 17.0.46
+      '@types/react': 17.0.47
       algoliasearch: 4.13.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
@@ -1714,7 +1714,7 @@ packages:
       react-dom: '*'
     dependencies:
       '@docusaurus/types': 2.0.0-beta.21_sfoxds7t5ydpegc3knd667wn6m
-      '@types/react': 17.0.46
+      '@types/react': 17.0.47
       '@types/react-router-config': 5.0.6
       '@types/react-router-dom': 5.3.3
       react: 17.0.2
@@ -1839,7 +1839,7 @@ packages:
       - webpack-cli
     dev: false
 
-  /@docusaurus/plugin-debug/2.0.0-beta.21_hgmlqo77woa6fdsehy4nk2n2m4:
+  /@docusaurus/plugin-debug/2.0.0-beta.21_5cjilodlopqvwaufddpysz6vla:
     resolution: {integrity: sha512-P54J4q4ecsyWW0Jy4zbimSIHna999AfbxpXGmF1IjyHrjoA3PtuakV1Ai51XrGEAaIq9q6qMQkEhbUd3CffGAw==}
     engines: {node: '>=16.14'}
     peerDependencies:
@@ -1851,7 +1851,7 @@ packages:
       fs-extra: 10.1.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-json-view: 1.21.3_ooduvn556nbrhgv6qu3va5yxde
+      react-json-view: 1.21.3_nn45z5sr7igu7sfun6tiae5hx4
       tslib: 2.4.0
     transitivePeerDependencies:
       - '@parcel/css'
@@ -1960,7 +1960,7 @@ packages:
       - webpack-cli
     dev: false
 
-  /@docusaurus/preset-classic/2.0.0-beta.21_hgmlqo77woa6fdsehy4nk2n2m4:
+  /@docusaurus/preset-classic/2.0.0-beta.21_5cjilodlopqvwaufddpysz6vla:
     resolution: {integrity: sha512-KvBnIUu7y69pNTJ9UhX6SdNlK6prR//J3L4rhN897tb8xx04xHHILlPXko2Il+C3Xzgh3OCgyvkoz9K6YlFTDw==}
     engines: {node: '>=16.14'}
     peerDependencies:
@@ -1971,13 +1971,13 @@ packages:
       '@docusaurus/plugin-content-blog': 2.0.0-beta.21_3j5kiqpkwml5zzfuaom7hdylau
       '@docusaurus/plugin-content-docs': 2.0.0-beta.21_3j5kiqpkwml5zzfuaom7hdylau
       '@docusaurus/plugin-content-pages': 2.0.0-beta.21_3j5kiqpkwml5zzfuaom7hdylau
-      '@docusaurus/plugin-debug': 2.0.0-beta.21_hgmlqo77woa6fdsehy4nk2n2m4
+      '@docusaurus/plugin-debug': 2.0.0-beta.21_5cjilodlopqvwaufddpysz6vla
       '@docusaurus/plugin-google-analytics': 2.0.0-beta.21_3j5kiqpkwml5zzfuaom7hdylau
       '@docusaurus/plugin-google-gtag': 2.0.0-beta.21_3j5kiqpkwml5zzfuaom7hdylau
       '@docusaurus/plugin-sitemap': 2.0.0-beta.21_3j5kiqpkwml5zzfuaom7hdylau
       '@docusaurus/theme-classic': 2.0.0-beta.21_3j5kiqpkwml5zzfuaom7hdylau
       '@docusaurus/theme-common': 2.0.0-beta.21_3j5kiqpkwml5zzfuaom7hdylau
-      '@docusaurus/theme-search-algolia': 2.0.0-beta.21_hgmlqo77woa6fdsehy4nk2n2m4
+      '@docusaurus/theme-search-algolia': 2.0.0-beta.21_5cjilodlopqvwaufddpysz6vla
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     transitivePeerDependencies:
@@ -2003,7 +2003,7 @@ packages:
     peerDependencies:
       react: '*'
     dependencies:
-      '@types/react': 17.0.46
+      '@types/react': 17.0.47
       prop-types: 15.8.1
       react: 17.0.2
     dev: false
@@ -2088,14 +2088,14 @@ packages:
       - webpack-cli
     dev: false
 
-  /@docusaurus/theme-search-algolia/2.0.0-beta.21_hgmlqo77woa6fdsehy4nk2n2m4:
+  /@docusaurus/theme-search-algolia/2.0.0-beta.21_5cjilodlopqvwaufddpysz6vla:
     resolution: {integrity: sha512-T1jKT8MVSSfnztSqeebUOpWHPoHKtwDXtKYE0xC99JWoZ+mMfv8AFhVSoSddn54jLJjV36mxg841eHQIySMCpQ==}
     engines: {node: '>=16.14'}
     peerDependencies:
       react: ^16.8.4 || ^17.0.0
       react-dom: ^16.8.4 || ^17.0.0
     dependencies:
-      '@docsearch/react': 3.1.0_ooduvn556nbrhgv6qu3va5yxde
+      '@docsearch/react': 3.1.0_nn45z5sr7igu7sfun6tiae5hx4
       '@docusaurus/core': 2.0.0-beta.21_3j5kiqpkwml5zzfuaom7hdylau
       '@docusaurus/logger': 2.0.0-beta.21
       '@docusaurus/plugin-content-docs': 2.0.0-beta.21_3j5kiqpkwml5zzfuaom7hdylau
@@ -2332,7 +2332,7 @@ packages:
       react: '>=16'
     dependencies:
       '@types/mdx': 2.0.1
-      '@types/react': 17.0.46
+      '@types/react': 17.0.47
       react: 17.0.2
     dev: false
 
@@ -2683,24 +2683,24 @@ packages:
     resolution: {integrity: sha512-db1mx37a1EJDf1XeX8jJN7R3PZABmJQXR8r28yUjVMFSjkmnQo6X6pOEEmNl+Tp2gYQOGPdYbFIipBtdElZ3Yg==}
     dependencies:
       '@types/history': 4.7.11
-      '@types/react': 17.0.46
+      '@types/react': 17.0.47
       '@types/react-router': 5.1.18
 
   /@types/react-router-dom/5.3.3:
     resolution: {integrity: sha512-kpqnYK4wcdm5UaWI3fLcELopqLrHgLqNsdpHauzlQktfkHL3npOSwtj1Uz9oKBAzs7lFtVkV8j83voAz2D8fhw==}
     dependencies:
       '@types/history': 4.7.11
-      '@types/react': 17.0.46
+      '@types/react': 17.0.47
       '@types/react-router': 5.1.18
 
   /@types/react-router/5.1.18:
     resolution: {integrity: sha512-YYknwy0D0iOwKQgz9v8nOzt2J6l4gouBmDnWqUUznltOTaon+r8US8ky8HvN0tXvc38U9m6z/t2RsVsnd1zM0g==}
     dependencies:
       '@types/history': 4.7.11
-      '@types/react': 17.0.46
+      '@types/react': 17.0.47
 
-  /@types/react/17.0.46:
-    resolution: {integrity: sha512-zNAJVEO9dBEQLPa/OuedGfx92/UlD+1rNxSv2qVWUQZ+orEtLUWFgZ08xfyI9TAZLnmWzZDtssAsgtbXT7Ew0g==}
+  /@types/react/17.0.47:
+    resolution: {integrity: sha512-mk0BL8zBinf2ozNr3qPnlu1oyVTYq+4V7WA76RgxUAtf0Em/Wbid38KN6n4abEkvO4xMTBWmnP1FtQzgkEiJoA==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
@@ -7223,7 +7223,7 @@ packages:
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
-  /react-json-view/1.21.3_ooduvn556nbrhgv6qu3va5yxde:
+  /react-json-view/1.21.3_nn45z5sr7igu7sfun6tiae5hx4:
     resolution: {integrity: sha512-13p8IREj9/x/Ye4WI/JpjhoIwuzEgUAtgJZNBJckfzJt1qyh24BdTm6UQNGnyTq9dapQdrqvquZTo3dz1X6Cjw==}
     peerDependencies:
       react: ^17.0.0 || ^16.3.0 || ^15.5.4
@@ -7234,7 +7234,7 @@ packages:
       react-base16-styling: 0.6.0
       react-dom: 17.0.2_react@17.0.2
       react-lifecycles-compat: 3.0.4
-      react-textarea-autosize: 8.3.3_rnf7gdpsn5dq2lkn43x7lp5n4a
+      react-textarea-autosize: 8.3.3_sudpmbbyhqtxq6t4xf6jlicdem
     transitivePeerDependencies:
       - '@types/react'
       - encoding
@@ -7300,7 +7300,7 @@ packages:
       tiny-warning: 1.0.3
     dev: false
 
-  /react-textarea-autosize/8.3.3_rnf7gdpsn5dq2lkn43x7lp5n4a:
+  /react-textarea-autosize/8.3.3_sudpmbbyhqtxq6t4xf6jlicdem:
     resolution: {integrity: sha512-2XlHXK2TDxS6vbQaoPbMOfQ8GK7+irc2fVK6QFIcC8GOnH3zI/v481n+j1L0WaPVvKxwesnY93fEfH++sus2rQ==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -7309,7 +7309,7 @@ packages:
       '@babel/runtime': 7.18.3
       react: 17.0.2
       use-composed-ref: 1.3.0_react@17.0.2
-      use-latest: 1.2.1_rnf7gdpsn5dq2lkn43x7lp5n4a
+      use-latest: 1.2.1_sudpmbbyhqtxq6t4xf6jlicdem
     transitivePeerDependencies:
       - '@types/react'
     dev: false
@@ -8593,7 +8593,7 @@ packages:
       react: 17.0.2
     dev: false
 
-  /use-isomorphic-layout-effect/1.1.2_rnf7gdpsn5dq2lkn43x7lp5n4a:
+  /use-isomorphic-layout-effect/1.1.2_sudpmbbyhqtxq6t4xf6jlicdem:
     resolution: {integrity: sha512-49L8yCO3iGT/ZF9QttjwLF/ZD9Iwto5LnH5LmEdk/6cFmXddqi2ulF0edxTwjj+7mqvpVVGQWvbXZdn32wRSHA==}
     peerDependencies:
       '@types/react': '*'
@@ -8602,11 +8602,11 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 17.0.46
+      '@types/react': 17.0.47
       react: 17.0.2
     dev: false
 
-  /use-latest/1.2.1_rnf7gdpsn5dq2lkn43x7lp5n4a:
+  /use-latest/1.2.1_sudpmbbyhqtxq6t4xf6jlicdem:
     resolution: {integrity: sha512-xA+AVm/Wlg3e2P/JiItTziwS7FK92LWrDB0p+hgXloIMuVCeJJ8v6f0eeHyPZaJrM+usM1FkFfbNCrJGs8A/zw==}
     peerDependencies:
       '@types/react': '*'
@@ -8615,9 +8615,9 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 17.0.46
+      '@types/react': 17.0.47
       react: 17.0.2
-      use-isomorphic-layout-effect: 1.1.2_rnf7gdpsn5dq2lkn43x7lp5n4a
+      use-isomorphic-layout-effect: 1.1.2_sudpmbbyhqtxq6t4xf6jlicdem
     dev: false
 
   /util-deprecate/1.0.2:
