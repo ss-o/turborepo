@@ -26,7 +26,7 @@
   "devDependencies": {
     "config": "workspace:*",
     "@docusaurus/module-type-aliases": "2.0.0-beta.21",
-    "@tsconfig/docusaurus": "1.0.5",
+    "@tsconfig/docusaurus": "1.0.6",
     "@algolia/client-search": "4.13.1",
     "@types/react": "17.0.46",
     "tsconfig": "workspace:*",
